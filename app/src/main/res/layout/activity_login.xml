@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.argaa.firebasetutorials.LoginActivity">
+
+    <EditText
+        android:id="@+id/account_fill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="113dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/password_fill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/account_fill"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        android:text="Log in your Account"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/log_in_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/password_fill"
+        android:layout_marginEnd="64dp"
+        android:layout_marginTop="59dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Log in"
+        android:textColor="@color/colorAccent" />
+
+</RelativeLayout>

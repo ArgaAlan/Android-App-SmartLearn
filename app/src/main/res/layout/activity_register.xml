@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.argaa.firebasetutorials.RegisterActivity">
+
+    <EditText
+        android:id="@+id/fill_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/fill_email"
+        android:layout_below="@+id/fill_email"
+        android:layout_marginTop="41dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="213dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Create a new account"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/fill_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/fill_name"
+        android:layout_below="@+id/fill_name"
+        android:layout_marginTop="23dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="136dp" />
+
+    <Button
+        android:id="@+id/button_create_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/fill_password"
+        android:layout_marginEnd="28dp"
+        android:layout_marginTop="50dp"
+        android:layout_weight="1"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:text="Create Account"
+        android:textColor="@color/colorAccent"
+        tools:layout_editor_absoluteX="269dp"
+        tools:layout_editor_absoluteY="333dp" />
+
+    <EditText
+        android:id="@+id/fill_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="72dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="63dp" />
+
+</RelativeLayout>
